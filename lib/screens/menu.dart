@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
           'Mental Health Tracker',
           style: TextStyle(
             color: Colors.white,
-            fontWeight: FontWeight.bold,
+            // fontWeight: FontWeight.bold,
           ),
         ),
         // Warna latar belakang AppBar diambil dari skema warna tema aplikasi.
@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                     child: Text(
                       'Welcome to Mental Health Tracker',
                       style: TextStyle(
-                        fontWeight: FontWeight.bold,
+                        // fontWeight: FontWeight.bold,
                         fontSize: 18.0,
                       ),
                     ),
@@ -118,7 +118,7 @@ class InfoCard extends StatelessWidget {
           children: [
             Text(
               title,
-              style: const TextStyle(fontWeight: FontWeight.bold),
+              // style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8.0),
             Text(content),
